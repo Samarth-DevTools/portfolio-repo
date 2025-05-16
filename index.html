@@ -1,70 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Varshitha G - DevOps Engineer</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #ff7e5f, #feb47b);
-            color: white;
-            text-align: center;
-        }
-        .container {
-            background-color: rgba(0, 0, 0, 0.4);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-        }
-        h1, h2 {
-            margin: 10px 0;
-        }
-        .logo {
-            width: 80px;
-            margin: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<<<<<<< HEAD
     <div class="container">
-        <h1>Varshitha G</h1>
-        <h2>DevOps Engineer</h2>
-        <div>
-            <img src="images/aws.png" alt="AWS" class="logo">
-            <img src="images/github.png" alt="GitHub" class="logo">
-            <img src="images/devrev.png" alt="DevRev" class="logo">
-        </div>
-        <p>Certifications: AWS, GitHub, DevRev</p>
-=======
-  <header>
-    <h1>Samarth H M</h1>
-    <p>DevOps Engineer</p>
-  </header>
-
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <div class="certs">
-      <div class="cert">
-        <img src="IMAGES/aws.png" alt="AWS Logo" />
-        <p>AWS Certified </p>
-      </div>
-      <div class="cert">
-        <img src="IMAGES/github.png" alt="GitHub Logo" />
-        <p>GitHub Foundations, Actions CI/CD </p>
-      </div>
-      <div class="cert">
-        <img src="IMAGES/devrev.png" alt="DevRev Logo" />
-        <p>DevRev Platform Proficiency, AgentOS </p>
-      </div>
->>>>>>> c1aadb820edac6f863a0e02204e83f374f88b67c
+        <header>
+            <h1>Varshitha G</h1>
+            <h2>DevOps Engineer</h2>
+        </header>
+        <section class="certifications">
+            <h3>Certifications</h3>
+            <div class="logos">
+                <div class="logo-item">
+                    <img src="images/aws.png" alt="AWS Logo"/>
+                    <p>AWS Certified</p>
+                </div>
+                <div class="logo-item">
+                    <img src="images/github.png" alt="GitHub Logo"/>
+                    <p>GitHub Proficient</p>
+                </div>
+                <div class="logo-item">
+                    <img src="images/devrev.png" alt="DevRev Logo"/>
+                    <p>DevRev Trained</p>
+                </div>
+            </div>
+        </section>
+        <section class="support">
+            <h3>Contact Me</h3>
+            <form id="support-form">
+                <input type="text" placeholder="Your Name" required/>
+                <input type="email" placeholder="Your Email" required/>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="confirmation" style="display:none;">Thank you for reaching out!</div>
+        </section>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
